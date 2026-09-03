@@ -43,7 +43,7 @@ Listen to the audio recording and provide a clear, professional evaluation repor
 
                 # Model name updated to the latest supported Flash model
                 response = client.models.generate_content(
-                    model='gemini-2.0-flash',
+                    model='gemini-3.6-flash',
                     contents=[
                         prompt,
                         types.Part.from_bytes(
