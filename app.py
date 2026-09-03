@@ -8,7 +8,7 @@ st.title("🎙️ AI Broadcast & Speech Coach")
 st.write("Paste your speech/news script, record your voice, and get an instant review.")
 
 # Hardcoded API Key (ab bar-bar mobile par enter nahi karni padegi)
-API_KEY = "AQ.Ab8RN6IXzw7GANGIymxXL7yP8k0I2a9ntCyw3TiTMLoH0qnh6Q"
+API_KEY = "AIzaSyBlFzZoxji486Z8_3RQu5EMx6rfqEzzIgA"
 
 script_text = st.text_area("1. Paste your speech script here:", height=150)
 audio_data = st.audio_input("2. Record your speech")
